@@ -1,0 +1,11 @@
+.registerBtn {
+    position: absolute;
+    bottom: 5rem;
+    width: 90%;
+}
+
+.registerContainer {
+    position: absolute;
+    bottom: 15rem;
+    width: 90%;
+}
