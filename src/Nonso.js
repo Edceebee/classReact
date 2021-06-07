@@ -1,5 +1,5 @@
 
-const Ayo = () => {
+const Nonso = () => {
 
     return (
         <div>
@@ -7,8 +7,9 @@ const Ayo = () => {
             <h1>React Class</h1>
             <h1>Cohort 5</h1>
         </div>
+    
     )
 
 }
 
-export default Ayo
+export default Nonso

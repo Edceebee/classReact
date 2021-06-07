@@ -16,14 +16,6 @@ const Login = () => {
         data[key] = value
     }
 
-    // const logData = () => {
-    //     console.log(data)
-    // }
-
-    // useEffect(() => {
-    //     console.log('Login: i mounted')
-    //     return () => console.log('Login: i unmounted');
-    // }, [])
 
     const [loading, setLoading] = useState(false)
 
@@ -59,7 +51,8 @@ const Login = () => {
             </div>
 
             <div className='loginBtn'>
-                <Button color='black' text={loading ? 'Loading': 'login'} width='100%' outline = {false} action = {loginUser} key="" />
+                <Button color='black' text={loading ? 'Loading': 'login'} width='100%' outline = {false} 
+                action = {loginUser} key="" />
             </div>
 
         </div>
